@@ -6,6 +6,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : 26 janv. 2026, 10:43:40
     Author     : amelia.pilou
 */
+body {
+    padding-top: 56px; /* évite le contenu mangé par la navbar fixed-top */
+}
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
