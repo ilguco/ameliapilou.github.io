@@ -16,7 +16,44 @@
     <link href="../css/acceuil.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+    
+        <style>
+        /* Styles pour une meilleure présentation des cartes */
+        .album {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
 
+        .card {
+            height: 80%;
+            border-radius: 8px;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: px;
+            border-top-right-radius: 8px;
+        }
+
+        .card-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 80px;
+        }
+
+        .card-text {
+            text-align: center;
+            margin: 0;
+            font-weight: 500;
+        }
+    </style>
 </head>
 
 <body>
@@ -80,7 +117,7 @@
             <div class="text-center">
                 <h2 class="display-4">Nolark</h2>
                 <h1 class="display-2 fw-bold text-uppercase">Nolark</h1>
-                <p class="lead">Nolark est une application de vente en ligne de pièces détachées pour motos. J'ai
+                <p class="lead">Nolark est un site e-commerce de casques pour motos. J'ai
                     participé à la réalisation de ce projet en autonomie dans le cadre de ma formation en BTS SIO
                     option SLAM.
                 </p>
@@ -94,15 +131,17 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="../images/Capture d’écran 2026-02-08 180219.png" alt="Alcoolémie">
+                        <img class="card-img-top" src="../images/Capture d’écran 2026-02-08 180219.png"
+                            alt="Alcoolémie">
                         <div class="card-body">
-                            <p class="card-text">Construction de l'interface d'alcoolémie</p>
+                            <p class="card-text">Construction de la page de simulation d'alcoolémie</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="../images/Capture d’écran 2026-02-08 180547.png" alt="Structuration MVC">
+                        <img class="card-img-top" src="../images/Capture d’écran 2026-02-08 180547.png"
+                            alt="Structuration MVC">
                         <div class="card-body">
                             <p class="card-text">Correction de bugs</p>
                         </div>
